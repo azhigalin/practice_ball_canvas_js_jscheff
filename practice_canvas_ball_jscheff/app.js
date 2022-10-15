@@ -28,7 +28,7 @@ init() {
 
 class Circle {
     static contains = [];
-    constructor(x, y, dx, r, color) {
+    constructor(x, y, dx, dy, r, color) {
         this.x = x;
         this.y = y;
         //x и y – это координаты центра окружности;
